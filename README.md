@@ -1,6 +1,6 @@
-# CryptoWind
+# CryptoWeather Nexus
 
-A comprehensive cryptocurrency dashboard with real-time price tracking, historical charts, weather information, and crypto news.
+A comprehensive cryptocurrency and weather dashboard with real-time price tracking, historical charts, weather information, and crypto news.
 
 ## Features
 
@@ -36,8 +36,8 @@ A comprehensive cryptocurrency dashboard with real-time price tracking, historic
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/cryptowind.git
-cd cryptowind
+git clone https://github.com/yourusername/cryptoweather-nexus.git
+cd cryptoweather-nexus
 ```
 
 2. Install dependencies
