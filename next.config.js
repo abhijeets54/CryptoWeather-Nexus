@@ -17,9 +17,11 @@ const nextConfig = {
     }
     return config;
   },
-  // Increase the timeout for loading chunks
+  // Experimental features
   experimental: {
-    pageDataTimeout: 120, // Increase timeout to 120 seconds
+    // Modern features for better performance
+    optimizeCss: true,
+    scrollRestoration: true,
   },
   // Enable SWC minification for better performance
   swcMinify: true,
