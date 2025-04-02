@@ -15,7 +15,7 @@ import toast from 'react-hot-toast'
 const CryptoDetailPage = () => {
   const params = useParams()
   const router = useRouter()
-  const cryptoId = params.id as string
+  const cryptoId = params?.id ? params.id as string : ''
   const dispatch = useAppDispatch()
   const { cryptoDetails, cryptoHistory, isLoading, error } = useAppSelector((state: RootState) => state.crypto as any)
   const { favoriteCryptos } = useAppSelector((state: RootState) => state.favorites as any)

@@ -21,7 +21,7 @@ interface HistoricalData {
 const CityDetailPage = () => {
   const params = useParams()
   const router = useRouter()
-  const cityName = decodeURIComponent(params.name as string)
+  const cityName = params?.name ? decodeURIComponent(params.name as string) : ''
   const dispatch = useAppDispatch()
   const { weatherData, isLoading, error } = useAppSelector((state: RootState) => state.weather as any)
   const { favoriteCities } = useAppSelector((state: RootState) => state.favorites as any)
