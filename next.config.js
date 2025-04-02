@@ -19,8 +19,7 @@ const nextConfig = {
   },
   // Experimental features
   experimental: {
-    // Modern features for better performance
-    optimizeCss: true,
+    // Only use stable features
     scrollRestoration: true,
   },
   // Enable SWC minification for better performance
